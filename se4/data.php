@@ -3,10 +3,10 @@
 function get_artist($songname, $artist)
 {
         /* Database INFO */
-	$servername = "localhost";
-	$username = "vaddells1";
-	$password = "0j41c4";
-	$dbname = "vaddells1_db";
+	$servername = "us-cdbr-east-03.cleardb.com";
+	$username = "b0ede556e62e4b";
+	$password = "170d8cad";
+	$dbname = "heroku_fd6d25c0e48f745";
 
         // Create connection
         $conn = new mysqli($servername, $username, $password, $dbname);
