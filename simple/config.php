@@ -1,9 +1,9 @@
 <?php
 /* Database credentials. */
-define('DB_SERVER', 'localhost');
-define('DB_USERNAME', 'vaddells1');
-define('DB_PASSWORD', '0j41c4');
-define('DB_NAME', 'vaddells1_db');
+define('DB_SERVER', 'us-cdbr-east-03.cleardb.com');
+define('DB_USERNAME', 'b0ede556e62e4b');
+define('DB_PASSWORD', '170d8cad');
+define('DB_NAME', 'heroku_fd6d25c0e48f745');
  
 /* Attempt to connect to MySQL database */
 $link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
