@@ -4,7 +4,7 @@ function get_artist($name)
 {
 	$products = [
 		"ShapeOfYou" => "Ed Sheeran",
-		"Faded" =>"Alan Walker",
+		"Faded" =>"AlanWalker",
 		"SeeYouAgain" =>"Wiz Khalifa"		
 	];
 	
