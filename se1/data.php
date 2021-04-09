@@ -3,9 +3,9 @@
 function get_artist($name)
 {
 	$products = [
-		"ShapeOfYou" => "Ed Sheeran",
+		"ShapeOfYou" => "EdSheeran",
 		"Faded" =>"AlanWalker",
-		"SeeYouAgain" =>"Wiz Khalifa"		
+		"SeeYouAgain" =>"WizKhalifa"		
 	];
 	
 	foreach($products as $product=>$artist)
