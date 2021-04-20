@@ -21,13 +21,13 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                
                if(mysqli_stmt_num_rows($stmt) == 1){                    
                    
-                   mysqli_stmt_bind_result($stmt, $songname, $artist);
+                   mysqli_stmt_bind_result($stmt, $songname, $h_artist);
 			if(mysqli_stmt_fetch($stmt)){
-                             if($artist == $artist){
+                             if($artist == $h_artist){
 			 $message = "The song already exists!!";
  
                        } else{
-			$message = "The song does not exists.";
+			$message = "wrong artist name.";
                        }
                    }
 		} else{
